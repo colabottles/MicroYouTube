@@ -1,29 +1,27 @@
 {
-  "name": "MicroYouTube",
+  "name": "microyoutube",
   "version": "1.0.0",
   "main": "index.js",
   "author": "Todd Libby <toddlibby@protonmail.com>",
   "license": "MIT",
   "scripts": {
-    "dev": "parcel index.html",
-    "build": "parcel build index.html"
+    "start": "parcel index.html",
+    "build": "parcel build index.html --public-url ./"
   },
   "dependencies": {
+    "babel-preset-stage-1": "^6.1.18",
+    "lodash": "^3.10.1",
+    "react": "16.3.2",
+    "react-dom": "16.3.2",
+    "react-redux": "5.0.7",
+    "redux": "4.0.0",
+    "youtube-api-search": "0.0.5"
+  },
+  "devDependencies": {
     "babel-core": "^6.26.3",
     "babel-loader": "^8.1.0",
     "babel-preset-env": "^1.7.0",
     "babel-preset-react": "^6.24.1",
-    "lodash": "^4.17.20",
-    "react": "^17.0.1",
-    "react-components": "^0.5.1",
-    "react-dom": "^17.0.1",
-    "react-redux": "^7.2.1",
-    "redux": "^4.0.5",
-    "styled-components": "^5.2.0",
-    "youtube-api-search": "^0.0.5"
-  },
-  "devDependencies": {
-    "babel-preset-stage-1": "^6.24.1",
     "parcel-bundler": "^1.12.4"
   }
 }

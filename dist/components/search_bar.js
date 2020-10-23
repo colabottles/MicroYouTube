@@ -7,7 +7,7 @@ class SearchBar extends Component{
   }
   render(){
     return (
-      <div className="search-bar">
+      <section className="search-bar">
           <label htmlFor="search-bar">Search:&nbsp;</label>
           <input 
             value={this.state.term}
@@ -17,7 +17,7 @@ class SearchBar extends Component{
             name="search"
             required>
           </input>
-      </div>
+      </section>
     );
   }
 

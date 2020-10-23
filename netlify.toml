@@ -1,0 +1,5 @@
+# netlify.toml
+
+[build.environment]
+  YARN_VERSION = "1.22.5"
+  NODE_ENV = "production"

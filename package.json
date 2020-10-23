@@ -6,7 +6,8 @@
   "license": "MIT",
   "scripts": {
     "dev": "parcel index.html --port 3000 --open",
-    "build:site": "parcel build src/index.html --public-url ./"
+    "start": "parcel index.html",
+    "build": "parcel build ./index.html --public-url ./"
   },
   "dependencies": {
     "babel-preset-stage-1": "^6.1.18",

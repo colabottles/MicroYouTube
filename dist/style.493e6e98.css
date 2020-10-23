@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@800&family=Work+Sans:wght@700&display=swap');
+
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Work Sans', sans-serif;
+  font-size: 1.4rem;
+}
+
+input {
+  font-size: 1rem;
+}
+
+.wrapper {
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+  place-items: center;
+}
+
+header {
+  grid-column: 1 / 3;
+}
+
+.title {
+  font-family: 'Open Sans', sans-serif;
+  letter-spacing: -3px;
+  margin-top: 2rem;
+}
+
+main {
+  grid-column: 1 / 3;
+}
+
+.search-bar {
+  margin: 2rem;
+}
+
+.search-bar input {
+  width: 48ch;
+  padding: 0.25em;
+}
+
+.video-container {
+  grid-row: 3;
+}
+
+section {
+  display: grid;
+  place-items: center;
+}
+
+aside {
+  grid-column: 2/12;
+}
+
+.video-list img {
+  max-width: 80px;
+}
+
+li.list-group-item {
+  list-style: none;
+}
+
+.video-title {
+  font-size: 1rem;
+  font-family: 'Work Sans', sans-serif;
+}
+
+.video-title:hover {
+  text-decoration: underline;
+}
+
+.video-detail {
+  grid-row: 3;
+}
+
+.video-detail .details {
+  margin-top: 10px;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  font-size: 18px;
+  font-family: 'Work Sans', sans-serif;
+  font-weight: bold;
+}
+
+.list-group-item {
+  cursor: pointer;
+}
+
+.list-group-item:hover {
+  background-color: #ddd;
+}
+
+.media-left {
+  width: 200px;
+}
+
+.desc-video {
+  font-family: 'Work Sans', sans-serif;
+  font-size: 1rem;
+}
+
+footer {
+  grid-column: 1 / 3;
+  place-content: center;
+  padding: 1rem 0;
+}
+
+/*# sourceMappingURL=/style.493e6e98.css.map */

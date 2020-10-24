@@ -5,9 +5,9 @@
   "author": "Todd Libby <toddlibby@protonmail.com>",
   "license": "MIT",
   "scripts": {
-    "dev": "parcel dev index.html",
-    "start": "parcel start index.html",
-    "build": "parcel build index.html --no-cache --public-url '.' --no-source-maps -d build"
+    "dev": "yarn dev",
+    "start": "yarn start",
+    "build": "yarn build"
   },
   "dependencies": {
     "babel-preset-stage-1": "^6.1.18",

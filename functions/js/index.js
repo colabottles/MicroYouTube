@@ -8,7 +8,7 @@ import VideoDetail from './dist/components/video_detail';
 
 const API_KEY = 'AIzaSyDZLrKAvhr2nMcBFrNwBEqpTiiKHc1q600'; // REPLACE IT WITH YT API KEY
 
-exports.handler = function(event, context, callback) {
+exports.handler = function(callback) {
   callback(null, {
     statusCode: 200,
     body: class App extends Component{
@@ -44,7 +44,7 @@ exports.handler = function(event, context, callback) {
           </section>
         );
       }
-    }
+    },
 
     ReactDOM.render(<App />,document.querySelector('.container')),
   });

@@ -8,15 +8,12 @@ import VideoDetail from './dist/components/video_detail';
 
 const API_KEY = 'AIzaSyDZLrKAvhr2nMcBFrNwBEqpTiiKHc1q600'; // REPLACE IT WITH YT API KEY
 
-exports.handler = function(callback) {
-  callback(null, {
+export async function handler(event, context) {
+  return {
     statusCode: 200,
     body: class App extends Component{
-
       constructor(props){
-
         super(props);
-
         this.state = {
           videos : [],
           selectedVideo : null

@@ -1,13 +1,15 @@
 {
   "name": "microyoutube",
   "version": "1.0.0",
+  "description": "A Micro YouTube application",
   "main": "index.js",
+  "repository": "https://github.com/colabottles/MicroYouTube.git",
   "author": "Todd Libby <toddlibby@protonmail.com>",
   "license": "MIT",
   "scripts": {
-    "dev": "yarn dev",
     "start": "yarn start",
-    "build": "yarn build"
+    "build": "yarn build",
+    "dev": "yarn dev"
   },
   "dependencies": {
     "babel-preset-stage-1": "^6.1.18",

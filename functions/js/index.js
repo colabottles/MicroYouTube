@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import ReactDOM from 'react-dom';
 
-import YTSearch from 'youtube-api-search';
+import YTSearch from './dist/components/youtube-api-search';
 import SearchBar from './dist/components/search_bar';
 import VideoList from './dist/components/video_list';
 import VideoDetail from './dist/components/video_detail';
@@ -43,6 +43,6 @@ export async function handler(event, context) {
       }
     },
 
-    ReactDOM.render(<App />,document.querySelector('.container')),
-  });
+    ReactDOM.render(<App />, document.querySelector('.container')),
+  };
 };

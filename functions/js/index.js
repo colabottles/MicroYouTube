@@ -11,8 +11,8 @@ const API_KEY = 'AIzaSyDZLrKAvhr2nMcBFrNwBEqpTiiKHc1q600'; // REPLACE IT WITH YT
 export async function handler(event, context) {
   return {
     statusCode: 200,
-    body: class App extends Component{
-      constructor(props){
+    body: class App extends Component {
+      constructor(props) {
         super(props);
         this.state = {
           videos : [],
@@ -22,7 +22,7 @@ export async function handler(event, context) {
         this.videoSearch('Front End Nerdery');
 
       }
-      videoSearch(term){
+      videoSearch(term) {
         YTSearch({key : API_KEY, term : term}, (videos) => {
             this.setState({
               videos : videos,
@@ -30,7 +30,7 @@ export async function handler(event, context) {
             })
         });
       }
-      render(){
+      render() {
         return(
           <section>
             <SearchBar onSearchTermChange = {term => this.videoSearch(term)}/>

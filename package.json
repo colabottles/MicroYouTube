@@ -11,11 +11,11 @@
   },
   "dependencies": {
     "babel-preset-stage-1": "^6.1.18",
-    "lodash": "^3.10.1",
-    "netlify-cli": "^2.65.7",
-    "netlify-lambda": "^2.0.1",
-    "react": "16.3.2",
-    "react-dom": "16.3.2",
+    "lodash": "^4.17.20",
+    "netlify-cli": "^2.70.0",
+    "netlify-lambda": "^2.0.2",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1",
     "react-redux": "5.0.7",
     "redux": "4.0.0",
     "youtube-api-search": "0.0.5"

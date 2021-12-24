@@ -117,3 +117,4 @@ dist
 
 # VS Code Workspace
 *.code-workspace
+*.vscode

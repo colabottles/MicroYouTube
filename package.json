@@ -12,19 +12,19 @@
     "dev": "yarn dev"
   },
   "dependencies": {
-    "babel-preset-stage-1": "^6.1.18",
-    "lodash": "^4.17.20",
-    "netlify-cli": "^2.70.0",
-    "netlify-lambda": "^2.0.2",
-    "react": "^17.0.1",
-    "react-dom": "^17.0.1",
-    "react-redux": "5.0.7",
-    "redux": "4.0.0",
+    "babel-preset-stage-1": "^6.24.1",
+    "lodash": "^4.17.21",
+    "netlify-cli": "^8.4.2",
+    "netlify-lambda": "^2.0.15",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-redux": "7.2.6",
+    "redux": "4.1.2",
     "youtube-api-search": "0.0.5"
   },
   "devDependencies": {
     "babel-core": "^6.26.3",
-    "babel-loader": "^8.1.0",
+    "babel-loader": "^8.2.3",
     "babel-preset-env": "^1.7.0",
     "babel-preset-react": "^6.24.1",
     "parcel-bundler": "^1.12.4"

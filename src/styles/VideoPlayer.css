@@ -186,3 +186,9 @@ details[open] .video-player__summary-arrow {
 .description-chapters__label {
   color: var(--color-text-muted);
 }
+
+@media (max-width: 768px) {
+  .video-player__embed {
+    width: 100%;
+  }
+}

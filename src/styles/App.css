@@ -52,7 +52,7 @@
 
 .app-footer a {
   color: var(--color-accent);
-  text-decoration: none;
+  text-decoration: underline;
   padding: 0.25rem 0.5rem;
   border-radius: var(--radius);
 }

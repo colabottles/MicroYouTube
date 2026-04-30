@@ -45,3 +45,17 @@
   outline: 2px solid var(--color-accent);
   outline-offset: 2px;
 }
+
+@media (max-width: 768px) {
+  .search-form {
+    flex-wrap: wrap;
+  }
+
+  .search-input {
+    width: 100%;
+  }
+
+  .search-button {
+    width: 100%;
+  }
+}

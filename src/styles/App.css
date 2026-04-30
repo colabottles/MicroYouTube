@@ -78,6 +78,9 @@
 
   .app-main {
     padding: 1rem;
+    width: calc(100% - 2rem);
+    max-width: 100%;
+    margin: 0;
   }
 
   .app-content {

@@ -47,15 +47,22 @@
 }
 
 @media (max-width: 768px) {
+  .search-bar {
+    width: 100%;
+  }
+
   .search-form {
     flex-wrap: wrap;
+    width: 100%;
   }
 
   .search-input {
     width: 100%;
+    box-sizing: border-box;
   }
 
   .search-button {
-    width: 100%;
+    width: 25%;
+    box-sizing: border-box;
   }
 }

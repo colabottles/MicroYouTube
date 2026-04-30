@@ -79,5 +79,23 @@
 @media (max-width: 768px) {
   .video-list {
     width: 100%;
+    max-width: 100%;
+  }
+
+  .video-item__button {
+    width: 100%;
+    max-width: 100%;
+    box-sizing: border-box;
+  }
+
+  .video-item__info {
+    min-width: 0;
+    overflow: hidden;
+  }
+
+  .video-item__title {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
   }
 }

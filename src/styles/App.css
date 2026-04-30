@@ -10,6 +10,13 @@
   border-bottom: 1px solid var(--color-border);
 }
 
+.app-header h1 {
+  font-family: 'Tilt Warp', sans-serif;
+  font-variation-settings: 'XROT'0, 'YROT'0;
+  font-size: 1.75rem;
+  letter-spacing: 0.05em;
+}
+
 .app-main {
   flex: 1;
   padding: 2rem;
@@ -74,6 +81,11 @@
 @media (max-width: 768px) {
   .app-header {
     padding: 1rem;
+  }
+
+  .app-header {
+    padding: 1rem;
+    text-align: center;
   }
 
   .app-main {

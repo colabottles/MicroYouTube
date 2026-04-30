@@ -1,16 +1,71 @@
-# React + Vite
+# MicroYouTube
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A lightweight YouTube search and video player built with Vite, React, and the YouTube Data API v3.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+- Search YouTube videos by keyword, genre, or topic
+- Main video player with full description, formatted chapters, and clickable links
+- Sidebar of related video thumbnails
+- Default video loaded on page visit
+- Fully responsive mobile layout
+- Accessible — semantic HTML, ARIA, keyboard navigable
+- Dark slate theme with green accents
 
-## React Compiler
+## Tech Stack
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- [Vite](https://vitejs.dev/)
+- [React](https://react.dev/)
+- [TypeScript](https://www.typescriptlang.org/)
+- [Axios](https://axios-http.com/)
+- [YouTube Data API v3](https://developers.google.com/youtube/v3)
+- Vanilla CSS
+- Deployed on [Netlify](https://netlify.com)
 
-## Expanding the ESLint configuration
+## Getting Started
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+### Prerequisites
+
+- Node.js
+- A YouTube Data API v3 key from [Google Cloud Console](https://console.cloud.google.com)
+
+### Installation
+
+```bash
+git clone https://github.com/colabottles/MicroYouTube.git
+cd MicroYouTube
+npm install
+```
+
+### Environment Variables
+
+Create a `.env` file in the root of the project:
+VITE_YOUTUBE_API_KEY=your_api_key_here
+
+### Development
+
+```bash
+npm run dev
+```
+
+### Production Build
+
+```bash
+npm run build
+```
+
+## Live Demo
+
+[micro-youtube.netlify.app](https://micro-youtube.netlify.app)
+
+## Author
+
+Todd Libby
+
+- [toddl.dev](https://toddl.dev)
+- [GitHub](https://github.com/colabottles)
+- [Twitch](https://twitch.tv/toddcodes)
+
+## License
+
+ISC

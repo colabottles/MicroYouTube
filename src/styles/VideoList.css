@@ -75,3 +75,9 @@
   color: var(--color-text-muted);
   margin: 0;
 }
+
+@media (max-width: 768px) {
+  .video-list {
+    width: 100%;
+  }
+}

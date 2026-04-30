@@ -1,0 +1,41 @@
+*,
+*::before,
+*::after {
+  box-sizing: content-box;
+}
+
+:root {
+  --color-bg: #1a1f2e;
+  --color-surface: #242938;
+  --color-surface-alt: #2d3347;
+  --color-border: #3a4060;
+  --color-text: #e8eaf0;
+  --color-text-muted: #8b92a8;
+  --color-accent: #00DC82;
+  --color-accent-hover: #00f090;
+
+  --font-base: 1rem;
+  --font-sm: 0.875rem;
+  --font-lg: 1.25rem;
+
+  --radius: 0.5rem;
+}
+
+body {
+  margin: 0;
+  background-color: var(--color-bg);
+  color: var(--color-text);
+  font-family: system-ui, sans-serif;
+  font-size: var(--font-base);
+  line-height: 1.5;
+}
+
+h1,
+h2,
+h3 {
+  margin: 0;
+}
+
+a {
+  color: var(--color-accent);
+}
